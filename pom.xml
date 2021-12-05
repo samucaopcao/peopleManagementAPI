@@ -13,12 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>peoplemanagementapi</name>
 	<description>Demo project for Spring Boot</description>
-<<<<<<< HEAD
-	<properties>
-		<java.version>11.0.11</java.version>
-	</properties>
-=======
->>>>>>> d8f776e8fd0acc0156084b3ba0d31f770d4c9f88
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
