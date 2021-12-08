@@ -3,6 +3,7 @@ package br.com.dio.peoplemanagementapi.service;
 import br.com.dio.peoplemanagementapi.dto.MessageResponseDTO;
 import br.com.dio.peoplemanagementapi.dto.PersonDTO;
 import br.com.dio.peoplemanagementapi.entity.Person;
+import br.com.dio.peoplemanagementapi.exception.PersonNotFoundException;
 import br.com.dio.peoplemanagementapi.mapper.PersonMapper;
 import br.com.dio.peoplemanagementapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,5 +39,10 @@ public class PersonService {
         return allPeople.stream()
                 .map(personMapper::toDTO)
                 .collect(Collectors.toList());
+    }
+
+    public PersonDTO findById(Long id) throws PersonNotFoundException {
+        Person person = personRepository.findById(id).orElseThrow(() -> new PersonNotFoundException(id));
+        return personMapper.toDTO(person);
     }
 }
