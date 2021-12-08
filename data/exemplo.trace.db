@@ -22,3 +22,6 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
 	... 18 more
+2021-12-08 09:07:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PHONES" not found; SQL statement:
+select * from PHONES [42102-200]
