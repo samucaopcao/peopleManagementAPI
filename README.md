@@ -6,7 +6,7 @@
 <br>
 <blockquote>*&nbspJava 11;
 <br>
-*&nbspMaven;
+*&nbspMaven 3.6.3;
 <br>
 *&nbspHeroku (aplicação de nome peoplemanagementapi-dio);
 <br>
