@@ -16,7 +16,7 @@
 <br>
 *&nbspLink para acesso da aplicação na plataforma Heroku:
 <br>https://dashboard.heroku.com/apps 
-<br>https://peoplemanagementapi-dio.herokuapp.com/api/v1/people/api
+<br>https://peoplemanagementapi-dio.herokuapp.com/api/v1/people
 <br>
 <h4>&nbspCriação de Modelo de Dados</h4>
 <br>
